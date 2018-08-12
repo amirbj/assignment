@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_text">About us
+
+Here`s everything that makes us who we are.
+ComeOn! (Co-Gaming Limited) is a gaming site that is located, licensed and regulated by the European Union member state of Malta. We bring the world to your Casino table and offer a wide range of cutting edge instant Casino games. To extend your play, we have created fair and understandable Bonuses. We work hard for you. Ladies and Gentlemen, you are cool with us!</string>
+    <string name="about_title">
+
+Here`s everything that makes us who we are.</string>
+    <string name="about_us">About us</string>
+</resources>

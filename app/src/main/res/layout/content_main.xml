@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comeon.com.assignment.presentation.MainActivity"
+    >
+    <LinearLayout
+        android:id="@+id/root_progressbar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loadding..."
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+
+        <com.eyalbira.loadingdots.LoadingDots
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:LoadingDots_dots_count="3"
+            android:visibility="visible"
+            app:LoadingDots_dots_size= "@dimen/LoadingDots_dots_size_default"
+            app:LoadingDots_dots_color="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/progress_count"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"/>
+    </LinearLayout>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homepage_webview"/>
+</RelativeLayout>

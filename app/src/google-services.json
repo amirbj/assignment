@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "475762025364",
+    "firebase_url": "https://assignment-8b569.firebaseio.com",
+    "project_id": "assignment-8b569",
+    "storage_bucket": "assignment-8b569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475762025364:android:01fa6a7729369da7",
+        "android_client_info": {
+          "package_name": "comeon.com.assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475762025364-cjokd6q22gaqkdlnfuqodnnbh8u1ppfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaYByIQnNO6hemqA7T4cL8FVDYUTy3WEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
